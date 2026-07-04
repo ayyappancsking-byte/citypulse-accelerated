@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Data outputs (large generated files — regenerate locally or in Colab)
+data/complaints_500k.*
+data/complaints_2m.*
+
+# Keep demo-sized data for Streamlit Cloud if desired; comment out next line to exclude all data
+# data/*.csv
+# data/*.parquet
+
+# Pipeline outputs
+outputs/*
+!outputs/benchmark_chart.png
+!outputs/benchmark_results.csv
+!outputs/benchmark_takeaway.txt
+!outputs/looker_area_hotspots.csv
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.pem
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml

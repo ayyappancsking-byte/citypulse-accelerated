@@ -1,0 +1,16 @@
+# Synthetic data
+faker>=24.0.0
+numpy>=1.26.0
+pandas>=2.1.0
+pyarrow>=14.0.0
+
+# Pipeline & app
+matplotlib>=3.8.0
+streamlit>=1.32.0
+python-dotenv>=1.0.0
+
+# Optional: natural language queries (Google Gemini API — supports AQ. auth keys)
+google-genai>=1.0.0
+
+# GPU benchmark (install on Colab with matching CUDA RAPIDS wheels)
+# cudf-cu12>=24.2.0
