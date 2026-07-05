@@ -116,7 +116,7 @@ CityPulse exports a dashboard-ready CSV alongside the pipeline outputs — no AP
 6. Build a **bar chart**: dimension = **Area**, metric = **Open Complaints**.
 7. Share the report with **Anyone with the link** and paste the link here:
 
-   `[Looker Studio dashboard link — add after publishing]`
+   `[Looker Studio dashboard link — https://datastudio.google.com/reporting/91917c40-8d6e-4b37-9481-de61ab95451a]`
 
 The original `outputs/area_hotspots.csv` (machine-friendly column names) is unchanged for code and the Streamlit app.
 
